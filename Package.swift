@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EaseLiveSDK",
-            url: "https://sdk.easelive.tv/cocoapods/easelivesdk/2.29.0/EaseLiveiOSSDK-2.29.0.zip",
-            checksum: "3d0e992cced9a30ad5f4e979848a6f2ce16134201e596d3628c61d5df2e6ee84"
+            url: "https://sdk.easelive.tv/cocoapods/easelivesdk/2.30.0/EaseLiveiOSSDK-2.30.0.zip",
+            checksum: "f69f0517c8cd49228906fde9148bfdc5186f8cecc5f033c11e7519ed0972e7e8"
         )
     ]
 )
