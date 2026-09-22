@@ -1,4 +1,4 @@
-// swift-tools-version:6.0
+// swift-tools-version:6.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "EaseLiveSDK",
     platforms: [
-        .iOS(.v13),
-        .tvOS(.v13),
+        .iOS(.v15),
+        .tvOS(.v15),
         .visionOS(.v1)
     ],
     products: [
@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EaseLiveSDK",
-            url: "https://sdk.easelive.tv/cocoapods/easelivesdk/2.30.0/EaseLiveiOSSDK-2.30.0.zip",
-            checksum: "f69f0517c8cd49228906fde9148bfdc5186f8cecc5f033c11e7519ed0972e7e8"
+            url: "https://sdk.easelive.tv/cocoapods/easelivesdk/2.31.0/EaseLiveiOSSDK-2.31.0.zip",
+            checksum: "70c8718a092653acd706bffb4d9c40382fa544f2acdd62571f908e7144ca398a"
         )
     ]
 )
